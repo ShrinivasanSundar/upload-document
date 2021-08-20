@@ -1,0 +1,18 @@
+@mixin bottomRight {
+    position:absolute;
+    bottom: 5%;
+    right:20%;
+}
+
+@mixin positionCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin positionCenterA{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

@@ -1,0 +1,10 @@
+@import "../../styles/mixins";
+
+.buttonContainer{
+    @include bottomRight;
+    display: flex;
+    flex-direction: row;
+    &>*{
+        margin: 10px;
+    }
+}

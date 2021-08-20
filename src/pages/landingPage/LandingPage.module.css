@@ -1,0 +1,17 @@
+.buttonContainer {
+  position: absolute;
+  bottom: 5%;
+  right: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.buttonContainer > * {
+  margin: 10px;
+}
+/*# sourceMappingURL=LandingPage.module.css.map */

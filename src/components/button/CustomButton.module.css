@@ -1,0 +1,24 @@
+.fillButton {
+  background: #800080;
+  color: #ffffff;
+  height: 2.5rem;
+  width: 7.5rem;
+}
+
+.fillButton:hover {
+  background: #800080;
+  color: #ffffff;
+}
+
+.fillButton:focus {
+  background: #800080;
+  color: #ffffff;
+}
+
+.outlineButton {
+  border: 1px solid #800080;
+  color: #525252;
+  height: 2.5rem;
+  width: 7.5rem;
+}
+/*# sourceMappingURL=CustomButton.module.css.map */

@@ -1,0 +1,13 @@
+@import "../../styles/color";
+
+.slideShow {
+    height: 60vh;
+    color: $primaryColor;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.carousel {
+    background: $purpleFade;
+  }

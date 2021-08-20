@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAA;EACP,UAAU,ECHA,OAAO;EDIjB,KAAK,ECFO,OAAO;EDGnB,MAAM,EAAE,MAAM;EACd,KAAK,EAAE,MAAM;CAShB;;AAbD,AAKI,WALO,AAKN,MAAM,CAAA;EACH,UAAU,ECRJ,OAAO;EDSb,KAAK,ECPG,OAAO;CDQlB;;AARL,AASI,WATO,AASN,MAAM,CAAA;EACH,UAAU,ECZJ,OAAO;EDab,KAAK,ECXG,OAAO;CDYlB;;AAEL,AAAA,cAAc,CAAA;EACV,MAAM,EAAC,GAAG,CAAC,KAAK,CCjBN,OAAO;EDkBjB,KAAK,ECjBE,OAAO;EDkBd,MAAM,EAAE,MAAM;EACd,KAAK,EAAE,MAAM;CAChB",
+    "sources": [
+        "CustomButton.module.scss",
+        "../../styles/_color.scss"
+    ],
+    "names": [],
+    "file": "CustomButton.module.css"
+}

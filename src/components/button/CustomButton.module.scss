@@ -1,0 +1,22 @@
+@import "../../styles/color";
+
+.fillButton{
+    background:$primaryColor;
+    color:$whiteTextColor;
+    height: 2.5rem;
+    width: 7.5rem;
+    &:hover{
+        background:$primaryColor;
+        color:$whiteTextColor;
+    }
+    &:focus{
+        background:$primaryColor;
+        color:$whiteTextColor;
+    }
+}
+.outlineButton{
+    border:1px solid $primaryColor;
+    color:$textColor;
+    height: 2.5rem;
+    width: 7.5rem;
+}
