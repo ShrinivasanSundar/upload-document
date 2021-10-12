@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import App from './app/App';
 import 'antd/dist/antd.css';
 import reportWebVitals from './reportWebVitals';
-import 'react-image-lightbox/style.css';
 ReactDOM.render(
   <React.StrictMode>
     <App />

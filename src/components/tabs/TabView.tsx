@@ -1,26 +1,15 @@
 import React,{useState,useEffect} from 'react';
 import { Row, Col } from 'antd';
 import { Tabs } from 'antd';
-import SlideShow from '../slideshow/SlideShow';
+import Description from '../description/Description';
 
 const { TabPane } = Tabs;
 
 const TabView: React.FC<any> = (props) => {
-  const { tabObjects,tabIndex=0,handleTabChange } = props;
+  const { tabObjects,tabIndex=0,handleTabChange,descriptionObj } = props;
   const [tabNo,setTabNo] = useState(tabIndex);
-  console.log(tabNo)
-  const slideShowProps = [{
-    image: "slideshow1.svg",
-    content: "Automatically Process Documents"
-  },
-  {
-    image: "slideshow2.svg",
-    content: "Automatically Process Documents"
-  },
-  {
-    image: "slideshow3.svg",
-    content: "Automatically Process Documents"
-  }]
+  console.log(descriptionObj)
+  
   useEffect(()=>{
     setTabNo(tabIndex)
   },[tabIndex])
@@ -28,12 +17,12 @@ const TabView: React.FC<any> = (props) => {
   const tabChange = (key: String) => {
     handleTabChange(key)
   }
-  return (<Tabs activeKey={`${tabNo}`} onChange={tabChange}>
-    {tabObjects?.map((tabObj: any, key: Number) => {
+  return (<Tabs  type="card" activeKey={`${tabNo}`} onChange={tabChange}>
+    {tabObjects?.map((tabObj: any, key: number) => {
       return (<TabPane key={`${key}`} tab={tabObj.header}>
-        <Row gutter={60}>
-          <Col span={14}><SlideShow slideShowObjs={slideShowProps} /></Col>
-          <Col span={10}>{tabObj.content}</Col>
+        <Row>
+          <Col offset={1} span={9}><Description descriptionObj={descriptionObj[key]}/></Col>
+          <Col span={14}>{tabObj.content}</Col>
         </Row>
       </TabPane>)
     })}

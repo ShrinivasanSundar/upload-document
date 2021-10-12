@@ -1,11 +1,10 @@
 import React from 'react';
-import DropDown from '../dropDown/DropDown';
+import InputForm from '../inputForm/InputForm';
 const SelectFile:React.FC<any> = (props)=>{
 
     return (
         <React.Fragment>
-        <h3>Select a document Type</h3>
-        <DropDown/>
+        <InputForm/>
         </React.Fragment>
     )
 }

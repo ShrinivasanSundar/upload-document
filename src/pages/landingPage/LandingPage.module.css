@@ -1,17 +1,27 @@
-.buttonContainer {
-  position: absolute;
-  bottom: 5%;
-  right: 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+.ant-form-item-required::before {
+  display: none;
 }
 
-.buttonContainer > * {
-  margin: 10px;
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
 }
 /*# sourceMappingURL=LandingPage.module.css.map */
